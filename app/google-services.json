@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "976856771725",
+    "firebase_url": "https://manish-electronics.firebaseio.com",
+    "project_id": "manish-electronics",
+    "storage_bucket": "manish-electronics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976856771725:android:c770845cb296eb0e",
+        "android_client_info": {
+          "package_name": "com.example.sumedh.manishelectronics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976856771725-k6dbhb743r4itd17nt1fjdt718q8713r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgxhkCo2XG21Q_7sjGa_mUAlmJVRnjG-Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
