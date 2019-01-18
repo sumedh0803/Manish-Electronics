@@ -97,11 +97,11 @@
         android:padding="15dp">
 
         <Button
-            android:id="@+id/showorder"
+            android:id="@+id/cancelorder"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="show all orders" />
+            android:text="cancel order" />
         <Button
             android:id="@+id/place"
             style="@style/Widget.AppCompat.Button.Colored"

@@ -147,7 +147,7 @@ public class location extends AppCompatActivity {
                 intent.putExtra("region",regionspin);
                 intent.putExtra("location",locationspin);
                 startActivity(intent);
-                finish();
+
             }
         });
 

@@ -28,7 +28,7 @@ import java.util.List;
 public class Order extends AppCompatActivity {
     Spinner prod1,prod2,prod3,shop;
     EditText qty1,qty2,qty3;
-    Button place,showorder;
+    Button place,cancelorder;
     Location l;
     FirebaseAuth firebaseAuth;
     DatabaseReference dref,dref1;
@@ -201,11 +201,11 @@ public class Order extends AppCompatActivity {
             }
         });
 
-        showorder = findViewById(R.id.showorder);
-        showorder.setOnClickListener(new View.OnClickListener() {
+        cancelorder = findViewById(R.id.cancelorder);
+        cancelorder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Order.this,sales.class));
+                finish();
             }
         });
 
